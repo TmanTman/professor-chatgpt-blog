@@ -9,73 +9,65 @@
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('/fonts/Montserrat-Regular.ttf') format('truetype');
-  font-weight: normal;
+  font-family: 'NunitoSans';
+  src: url('/fonts/nunitosans-regular.woff2') format('woff2');
+  font-variation-settings: "wght" 700;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Montserrat-Bold';
-  src: url('/fonts/Montserrat-Bold.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Montserrat-ExtraBold';
-  src: url('/fonts/Montserrat-ExtraBold.ttf') format('truetype');
-  font-weight: normal;
+  font-family: 'NunitoSans-Bold';
+  src: url('/fonts/nunitosans-bold.woff2') format('woff2');
+  font-weight: 100 1000;
   font-style: normal;
   font-display: swap;
 }
 
 h1 {
-  font-family: 'Montserrat-Bold', arial, sans-serif;
+  font-family: 'NunitoSans-Bold', arial, sans-serif;
   font-size: 3.5rem;
   line-height: 4.5rem;
   color: var(--dark);
 }
 
 h2 {
-  font-family: 'Montserrat', arial, sans-serif;
+  font-family: 'NunitoSans', arial, sans-serif;
   font-size: 2rem;
   line-height: 2.5rem;
   color: var(--dark);
 }
 
 h3 {
-  font-family: 'Montserrat', arial, sans-serif;
+  font-family: 'NunitoSans', arial, sans-serif;
   font-size: 1.5rem;
   line-height: 2rem;
   color: var(--dark);
 }
 
 h4 {
-  font-family: 'Montserrat', arial, sans-serif;
+  font-family: 'NunitoSans', arial, sans-serif;
   font-size: 1.25rem;
   line-height: 1.75rem;
   color: var(--dark);
 }
 
 h5 {
-  font-family: 'Montserrat', arial, sans-serif;
+  font-family: 'NunitoSans', arial, sans-serif;
   font-size: 1rem;
   line-height: 1.5rem;
   color: var(--dark);
 }
 
 h6 {
-  font-family: 'Montserrat', arial, sans-serif;
+  font-family: 'NunitoSans', arial, sans-serif;
   font-size: 0.875rem;
   line-height: 1.25rem;
   color: var(--dark);
 }
 
 p {
-  font-family: 'Montserrat', arial, sans-serif;
+  font-family: 'NunitoSans', arial, sans-serif;
   font-size: 1.25rem;
   line-height: 2rem;
   color: var(--dark);
@@ -87,7 +79,7 @@ body {
 }
 
 li {
-  font-family: 'Montserrat', arial, sans-serif;
+  font-family: 'NunitoSans', arial, sans-serif;
   font-size: 1.25rem;
   line-height: 2rem;
   color: var(--dark);
