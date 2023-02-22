@@ -1,0 +1,14 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Banner from '../components/Banner.astro';
+import Follow from '../components/Follow.astro';
+import Project from '../components/Project.astro';
+import AboutMe from '../components/AboutMe.astro';
+const pageTitle = "Prof ChatGPT";
+---
+<BaseLayout pageTitle={pageTitle}>
+  <Banner />
+  <Follow />
+  <Project />
+  <AboutMe />
+</BaseLayout>
